@@ -1,0 +1,39 @@
+h1 {
+	color: steelBlue;
+}
+
+.navigation_menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: black;
+}
+
+.navigation_menu li {
+	float: left;
+	font-size: 30px;
+}
+
+.navigation_menu a {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: black;
+	color: white;
+}
+
+.navigation_menu .active {
+	background-color: green;
+	font-weight : bold;
+}
+.jumbotron {
+	background-color: white;
+	color: #86b0f4;
+}
+
+.jumbotron * {
+	padding-left: 50px;
+}

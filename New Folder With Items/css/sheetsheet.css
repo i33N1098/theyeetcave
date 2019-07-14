@@ -1,0 +1,55 @@
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0px 8px 16px 0px;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.animate-1 {
+	animation-name: flex;
+	animation-duration: 6s;
+}
+
+.animate-2 {
+	animation-name: blink;
+	animation-duration: 4s;
+	animation-iteration-count : infinite;
+	animation-direction: alternate;
+}
+
+.animate-3 {
+	animation-name : fade-in;
+	animation-duration: 6s;
+	animation direction: reverse;
+}
+
+@keyframes flex {
+	from { opacity: 0; }
+	to { opacity : 1; }
+}
+
+@keyframes blink {
+	0% { background-color: #bff442; }
+	40% { background-color: #f9ff63; }
+	80% { background-color: #ffd263; }
+	100% { background-color: #ff8c63; }
+}
+
+	from { opacity: 0;
+	width: 100px; 
+	transform: rotate(-80deg);
+	}
+
+    to { opacity: 1; 
+    	width: 300px;
+    	transform: rotate(0deg);
+    }
+
+.card-decl .card :hover {
+	background-color: red;
+	color: white;
+}
